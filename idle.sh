@@ -1,16 +1,12 @@
 #!/bin/bash
 
-
-
 Print() {
-
         case $3 in
                 B) COL="\e[34m" ;;
                 G) COL="\e[32m" ;;
                 Y) COL="\e[33m" ;;
                 R) COL="\e[31m" ;;
         esac
-
                         if [ "$1" = SL ]; then
                                 echo -n -e "$COL$2\e[0m"
                         elif [ "$1" = NL ]; then
