@@ -8,4 +8,6 @@ No Activity in server it ll shutdown automatically most used in AWS.
 
 Add Cron Job like below.
 ```
-*/10 * * * * sh -x /boot/idle.sh &>/tmp/idle.out ```
+*/10 * * * * sh -x /boot/idle.sh &>/tmp/idle.out 
+```
+Hope this Script works for all teh DevOps People and Server Admins.
